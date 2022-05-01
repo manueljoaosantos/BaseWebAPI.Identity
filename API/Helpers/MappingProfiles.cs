@@ -1,5 +1,6 @@
 using API.Dtos;
 using AutoMapper;
+using Core.Entities;
 
 namespace API.Helpers
 {
@@ -7,6 +8,8 @@ namespace API.Helpers
     {
         public MappingProfiles()
         {
+            CreateMap<Product, ProductToReturnDto>()
+                .ForMember(d => d.ProductType, o => o.MapFrom(s => s.ProductType.Name));
             CreateMap<Core.Entities.Identity.Address, AddressDto>().ReverseMap();
         }
     }

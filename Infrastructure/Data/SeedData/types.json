@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Name": "C#"
+  },
+  {
+    "Id": 2,
+    "Name": "json"
+  },
+  {
+    "Id": 3,
+    "Name": "Angular"
+  },
+  {
+    "Id": 4,
+    "Name": "PowerShell"
+  },
+  {
+    "Id": 5,
+    "Name": "React"
+  },
+  {
+    "Id": 6,
+    "Name": "jquery"
+  } 
+]
